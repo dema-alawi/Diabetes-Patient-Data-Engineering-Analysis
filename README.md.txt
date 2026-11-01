@@ -35,21 +35,28 @@ The project includes visualizations such as:
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Google Colab
 
 ## Project Structure
+
 ```text
 Diabetes-Patient-Data-Engineering-Analysis/
-├── notebooks/
-│   ├── data eng project.ipynb
-│   └── Visualization2.ipynb
-├── data/
-│   └── diabetic_data.csv
+├── data_eng_project.ipynb
+├── Visualization2.ipynb
+├── diabetic_data.csv
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
 
 ## How to Run
+
+### Using Google Colab
+1. Open the notebook using Google Colab.
+2. Upload the `diabetic_data.csv` dataset to the Colab session.
+3. Run all cells in the notebook.
+
+### Running Locally
 1. Clone or download this repository.
 2. Install the required libraries:
 
@@ -58,7 +65,7 @@ Diabetes-Patient-Data-Engineering-Analysis/
    ```
 
 3. Open the notebooks using Jupyter Notebook.
-4. Make sure the dataset is available at the file path used in each notebook.
+4. Make sure the dataset path in each notebook points to the correct location.
 
 ## Project Scope
 This project focuses on data engineering, preprocessing, feature engineering, and exploratory data analysis. It does not include training a machine learning prediction model.
