@@ -52,11 +52,21 @@ Diabetes-Patient-Data-Engineering-Analysis/
 ## How to Run
 1. Clone or download this repository.
 2. Install the required libraries:
+
    ```bash
    pip install -r requirements.txt
    ```
+
 3. Open the notebooks using Jupyter Notebook.
 4. Make sure the dataset is available at the file path used in each notebook.
 
 ## Project Scope
 This project focuses on data engineering, preprocessing, feature engineering, and exploratory data analysis. It does not include training a machine learning prediction model.
+
+## Dataset Source
+The dataset used in this project is **Diabetes 130-US Hospitals for Years 1999–2008**, obtained from the UCI Machine Learning Repository.
+
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us-hospitals+for-years-1999-2008)
+- **Authors:** Clore, J., Cios, K., DeShazo, J., & Strack, B. (2014).
+- **DOI:** [10.24432/C5230J](https://doi.org/10.24432/C5230J)
+- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0).
